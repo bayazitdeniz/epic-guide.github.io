@@ -210,7 +210,7 @@ Once you have access you can monitor RunAI node and GPU usage through the dashbo
 1. Install the following pre-requisites:
 	1. **kubectl** from [their website](https://kubernetes.io/docs/tasks/tools/) or if you have brew: `brew install kubectl`
 	2. **Helm** from [their website](<https://helm.sh/docs/intro/install/>) or if you have brew: `brew install helm`
-	3. **Run:AI CLI** (Command Line Interface) from the [dashboard](https://epfl.run.ai/) on the top right help icon *(?) > Researcher Command Line interface* OR [their github releases](https://github.com/run-ai/runai-cli/releases) (e.g. `darwin-amd64` for MacOS). These should include an installation script called `install-runai.sh`, you should run it. If there is a certificate expiry problem, consider adding the argument `--no-check-certificate` to the wget command. If you run into other problems, more information on the CLI installation [here](https://docs.run.ai/Administrator/Researcher-Setup/cli-install/).
+	3. **Run:AI CLI** (Command Line Interface) following [the instructions on their website](https://docs.run.ai/admin/researcher-setup/cli-install/#install-runai-cli) using the `wget` download option instead of the _download_ button.
 	4. **Docker** from [their website](https://docs.docker.com/engine/install/) or through [CLI for ubuntu](https://docs.docker.com/engine/install/ubuntu/).
 2. Then complete authentication with both Run:AI CLI and harbor.
 	1. Download the EPFL [kubernetes config file](https://icitdocs.epfl.ch/download/attachments/23986177/config?version=1&modificationDate=1656340636000&api=v2) and move it to `~/.kube`.
